@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.conatiner{
+    display: grid;
+    background-color: wheat;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+   
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    background-color: orange;
+    justify-self: center;
+}
+.Rotate-X:hover{
+    transform: rotatex(60deg);
+}
+.Rotate-Y:hover{
+    transform: rotatey(60deg);
+}
+.Rotate-Z:hover{
+    transform: rotatez(60deg);
+}
+.Translate-X:hover{
+    transform: translatex(200px);
+}
+.Translate-Y:hover{
+    transform: translatey(200px);
+}
+.Translate-Z:hover{
+    transform: perspective(300px) translatez(200px);
+}
+.Scale-X:hover{
+    transform: scalex(2);
+}
+.Scale-Y:hover{
+    transform: scaley(2);
+}
+.Scale-Z:hover{
+    transform: perspective(200px) rotatey(45deg) scalez(2);
+}

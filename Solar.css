@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transform: translate(300px);
+    padding: 4rem;
+}
+
+/* sun */
+.Sun{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(251, 167, 23);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform-origin:center;
+}
+/* Mercury */
+.Mercury{
+    font-size: 0.8rem;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(134, 130, 130);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: Mercury;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes Mercury {
+    from{
+        transform: rotate(0deg) translate(130px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(130px) rotate(-360deg);
+    }
+    
+}
+/* orbit1 */
+.orbit1{
+    border: 5px dotted white;
+    height: 260px;
+    width:260px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    right:20%;
+    bottom: 30%;
+    transform: translate(-50%,-50%);
+     z-index: -1;
+    
+}
+/* Venus */
+.Venus{
+    height: 80px;
+    width: 80px;
+    background-color:#FFC649;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: Venus;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes  Venus {
+    from{
+        transform: rotate(0deg) translate(230px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(230px) rotate(-360deg);
+    }
+    
+}
+
+.orbit2{
+    border: 5px dotted white;
+    height: 460px;
+    width:460px;
+    border-radius: 50%;
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    right:20%;
+    bottom: 30%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    
+}
+/* Earth */
+.Earth{
+    height: 90px;
+    width: 90px;
+    background-color:rgb(71, 143, 236);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: Earth;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes  Earth {
+    from{
+        transform: rotate(0deg) translate(330px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(330px) rotate(-360deg);
+    }
+    
+}
+/* orbit3 */
+.orbit3{
+    border: 5px dotted white;
+    height: 660px;
+    width:660px;
+    border-radius: 50%;
+    position: absolute;
+    top: 54%;
+    left: 52%;
+    right:20%;
+    bottom: 30%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+/* Mars */
+.Mars{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(250, 97, 20);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation-name: Mars;
+    animation-timing-function: linear;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes  Mars {
+    from{
+        transform: rotate(0deg) translate(450px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translate(450px) rotate(-360deg);
+    }
+    
+}
+/* Orbit4 */
+.orbit4{
+    border: 5px dotted white;
+    height: 860px;
+    width:860px;
+    border-radius: 50%;
+    position: absolute;
+    top: 53%;
+    left: 52%;
+    right:20%;
+    bottom: 30%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+

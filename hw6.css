@@ -1,0 +1,16 @@
+
+
+.first{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.second{
+    height: 200px;
+    width: 200px;
+    float: right;
+    clear: both;
+}
+.lorem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

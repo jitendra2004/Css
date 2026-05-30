@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+}
+/* header */
+header{
+    background-color: white;
+    
+}
+.first,.second{
+    padding-left: 20%;
+   
+}
+
+.zomato{
+    color: red;
+    font-size: xx-large;
+    margin-right: 50px;
+    
+}
+.search1{
+    height: 30px;
+    width: 300px;
+    position: relative;
+    bottom: 10px;
+    margin-right: 50px;
+}
+
+
+.login,.signup{
+    font-size: large;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    bottom: 10px;
+}
+.login{
+    margin-right: 50px;
+}
+
+.img1,.img2,.img3{
+    height: 80px;
+    width: 80px;
+}
+.box1,.box2,.box3{
+    margin-right: 50px;
+    font-size: xx-large;
+    position: relative;
+    bottom: 30px;
+    margin-left: 10px;
+}
+.third{
+    height: 500px;
+    background-color: rgb(233, 230, 230);  
+  
+   
+}
+.second{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+.third{
+    padding-left: 50px;
+   
+}
+
+.collections{
+    font-size: xx-large; 
+    margin-bottom: 20px;
+}
+.paragraph{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.image1,.image2,.image3,.image4{
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.div1,.div2,.div3,.div4{
+    display: inline-block;
+}
+/* body */
+body{
+    background-color: rgb(253, 243, 243);
+}
+.Box{
+    display: inline-block;
+}
+.card{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 1.5%;
+    border: 5px solid rgb(253, 243, 243);
+}
+.card:hover{
+    background-color: rgb(245, 232, 232); 
+    border-color:rgb(253, 243, 243);
+}
+.photos{
+    position: relative;
+}
+ 
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 20px;  
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.flat{
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    background-color: rgba(246, 164, 97, 0.696);
+    color: white;
+    padding: 3px;
+  
+}
+.resturant{
+     position: relative;
+     margin-bottom: 3px;
+    
+}
+.resturant_name{
+    font-weight: bold;
+    font-size: large;
+}
+
+.rating{
+    background-color: green;
+    color: white;
+   padding-left: 5px;
+   border-radius: 6px;
+   font-size: medium;
+   position: absolute;
+   right:5px
+}
+.location,.address{
+    position: relative;
+}
+.rate,.distance{
+    position: absolute;
+    right: 3px;
+}
+.location{
+    margin-bottom: 3px;
+}
+.address{
+    font-size: small;
+}
+.distance{
+    font-weight: bold;
+}
+
+/* footer */
+.footer{
+    padding: 50px;
+    font-size: medium;
+}

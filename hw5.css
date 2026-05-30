@@ -1,0 +1,12 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    overflow:scroll;
+    font-size: x-large;
+    margin: 10px;
+}
+.first{
+    margin: 0%;
+    padding: 0%;
+}

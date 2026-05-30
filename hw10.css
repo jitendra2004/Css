@@ -1,0 +1,22 @@
+.box{
+    background-color: aqua;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 50%;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+.box1:hover{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
